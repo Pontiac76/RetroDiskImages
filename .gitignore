@@ -1,5 +1,7 @@
-grr.bat
-grr.ps1
+grr.*
 *.d64
 *.d71
 *.g64
+*.nbz
+*.log
+*.exe
