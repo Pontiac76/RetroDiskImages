@@ -23,4 +23,9 @@ body:
         - copydisk.ps1
     validations:
       required: true
-    
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant console output
+      description: Please copy/paste the console output here
+      render: shell
