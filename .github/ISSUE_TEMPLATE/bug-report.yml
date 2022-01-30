@@ -29,7 +29,7 @@ body:
 - type: dropdown
   id: version
   attributes:
-    label: Version
+    label: Identify Script
     description: Which script are you having issues with?
     options:
     - FullFormat.ps1
@@ -40,5 +40,5 @@ body:
   id: logs
   attributes:
     label: Relevant log output
-    description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+    description: Please copy and paste any relevant console output. This will be automatically formatted into code.
     render: shell
