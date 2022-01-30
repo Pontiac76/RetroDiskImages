@@ -1,0 +1,26 @@
+name: Bug Report
+description: File a bug report
+labels: [bug, triage]
+assignees:
+  - Pontiac76
+body:
+  - type: markdown
+    attributes:
+      values: |
+        Thanksfor taking the time to fill out this bug report!
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the bug you are experiencing
+      description: Please provide a book report on what the bug is that you are experiencing
+    validations:
+      required: true
+  - type: dropdown
+    id: script
+    description: Which script are you having issues with?
+      options:
+        - FullFormat.ps1
+        - copydisk.ps1
+    validations:
+      required: true
+    
