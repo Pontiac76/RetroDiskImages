@@ -81,7 +81,7 @@ if ( $disksize -eq "00" ) { # Bit 128 = 0; Single-Sided Formatted Disk
 }
 
 # .. yeah... whut?
-if ( $Passed = $False ){
+if ( $Passed -eq $False ){
   Write-Output "Unexpected Results.  I don't know what kind of disk this is..."
   exit
 }
